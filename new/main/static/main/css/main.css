@@ -61,3 +61,12 @@ main .features p {
     max-width : 500px ;
     margin : 20px auto ;
 }
+
+.user-block {
+    background-color : #703030 ;
+    width : 50% ;
+    margin : 20px auto ;
+    padding : 20px ;
+    border-radius : 10px ;
+    color : #fff ;
+}

@@ -8,4 +8,11 @@
     <div class="features">
         <h1>Register</h1>
     </div>
+
+    {%for el in user%}
+        <div class="user-block">
+            <h6>{{el.username}}</h6>
+            <p>{{el.email}}</p>
+        </div>
+    {%endfor%}
 {% endblock %}
